@@ -1,0 +1,36 @@
+{
+    "name": "lumen-vue-webpack",
+    "version": "1.0.0",
+    "description": "Lumen Api framework with Vue and Laravel mix (webpack)",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "keywords": [
+        "lumen",
+        "vue",
+        "laravel-mix",
+        "api",
+        "SPA"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.10",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "vue": "^2.6.12"
+    }
+}
